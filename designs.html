@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Fredoka+One&family=Open+Sans&family=Roboto+Slab:wght@300;500;700;900&display=swap"
+        rel="stylesheet">
+
+    <!--CSS Styles -->
+    <link rel="stylesheet" type="text/css" href="assets/css/styles.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/projects.css" />
+
+    <!-- Animate CSS CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <!-- Iconoir CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lucaburgio/iconoir@master/css/iconoir.css">
+
+    <title>Megan Kuo | Designed Projects</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav id="navbar">
+        <div class="flex-grow-1 logo-cont">
+            <a href="#hero"><img id="nav-logo" src='./assets/icons/CircleLogo.svg' alt="Logo"></a>
+        </div>
+        <div id="nav-links" class="flex-grow-1">
+            <a href="index.html#about">About</a>
+            <a href="projects.html">Projects</a>
+            <a href="skills.html">Skills</a>
+        </div>
+        <div id="socials" class="flex-grow-1">
+            <a href="https://www.linkedin.com/in/megankuo/"><i class="noir iconoir-linkedin"></i></a>
+            <a href="https://github.com/megankuo"><i class="noir iconoir-github"></i></a>
+            <a href="mailto:megan.kuo@live.com"><i class="noir iconoir-mail"></i></a>
+        </div>
+    </nav>
+    <!-- Watermark -->
+    <object type="image/svg+xml" data="./assets/images/watermark.svg" id="watermark">
+        Watermark
+        <!-- fallback image in CSS -->
+    </object>
+    <!-- Main Section -->
+    <main id="projects">
+        <h1>
+            < My Projects />
+        </h1>
+        <div class="filter"><a href="projects.html">Coded</a><a style="background: url(/assets/images/link-bg-hover.svg) no-repeat;background-size: contain;" href="designs.html">Designed</a></div>
+        <svg class="divider" width="885" height="28" viewBox="0 0 885 28" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <path d="M13.6604 6.33182L837.191 6.33184" stroke="#F8F5F3" stroke-width="1.45852" />
+            <circle cx="5.10483" cy="5.60257" r="5.10483" transform="rotate(-90 5.10483 5.60257)" fill="#F8F5F3" />
+            <path d="M143.469 23.1267L967 23.1267" stroke="#F8F5F3" stroke-width="1.45852" />
+            <circle cx="134.913" cy="22.3974" r="5.10483" transform="rotate(-90 134.913 22.3974)" fill="#F8F5F3" />
+        </svg>
+
+        <section class='grid'>
+            <div class="screenshot"><img src="assets/images/programredesign.png" alt="" srcset=""></div>
+            <div class="description">
+                <a href="https://www.figma.com/proto/6eHXeozkFTGiew6KK1Huus/React-Assignment-Redesign?node-id=2%3A2&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=2%3A2">
+                    <h2># Course page redesign <i class="iconoir-move-right"></i></h2>
+                </a>
+                <p>A design for the full stack program based of an unstyled assignment</p>
+                <div class="tech-container">Figma</div>
+            </div>
+            <div class="description">
+                <a href="https://www.figma.com/proto/TitfiPtmB3ZWcl4WI2UyFz/Connect'd?scaling=min-zoom&page-id=0%3A1&starting-point-node-id=0%3A3&node-id=0%3A3">
+                    <h2># Connect'd <i class="iconoir-move-right"></i></h2>
+                </a>
+                <p>Complete design process exploring UI and UX</p>
+                <div class="tech-container">Surveys | Personas | Wireframes | Figma</div>
+            </div>
+            <div class="screenshot"><img src="assets/images/connectd.png" alt="" srcset=""></div>
+            <div class="screenshot"><img src="assets/images/Binibin.png" alt="" srcset=""></div>
+            <div class="description">
+                <a href="binibin.html">
+                    <h2># Health Alert <i class="iconoir-move-right"></i></h2>
+                </a>
+                <p>Paramedic communications dashboard created for a hackathon</p>
+                <div class="tech-container">Bulma | Ejs | Express.js</div>
+            </div>
+        </section>
+    </main>
+
+
+    <!-- Website scripts -->
+    <script src="assets/js/app.js"></script>
+
+</body>
+
+</html>
