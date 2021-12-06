@@ -59,6 +59,8 @@ main {
 }
 
 .filter a {
+    background: url(https://svgshare.com/i/caa.svg) no-repeat;
+    background-size: contain;
     padding: 0.5em 3em;
     transition: all ease 0.5s;
 }
