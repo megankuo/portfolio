@@ -18,6 +18,9 @@ body {
     margin: 0;
     padding: 0 10px 10px;
     font-family: var(--body-font);
+    font-size: 16px;
+    line-height: 1.5;
+    color: #3F2C27;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -35,9 +38,29 @@ h1 {
     text-shadow: 4px 4px 0px #F8F5F3;
 }
 
+h2 {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 42px;
+
+    color: #5C748E;
+}
+
 section {
     min-height: 95vh;
 }
+
+a {
+    display: inline-block;
+    font-weight: var(--bolder-font);
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+    color: #AA7949;
+    text-decoration: none;
+    background: url(/assets/images/link-bg.svg) no-repeat;
+}
+
 
 /* Generic styling */
 .center {
@@ -52,7 +75,7 @@ section {
 
 .iconoir-move-down {
     position: absolute;
-    bottom: 15px;
+    bottom: 25px;
 }
 
 .noir {
