@@ -11,9 +11,9 @@
 #hero {
     position: relative;
     background: linear-gradient(180deg, #E8E2EF 0%, #CEC4D9 100%);
-    height: 90vh;
+    height: 100vh;
     width: 100%;
-    top: 56px;
+    /* top: 56px; */
     display: flex;
     flex-direction: column;
 }
