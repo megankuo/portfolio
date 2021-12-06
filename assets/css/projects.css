@@ -12,14 +12,14 @@ main {
 }
 
 .description a {
-    background: url(/assets/images/link-bg.svg) no-repeat;
+    background: url(https://svgshare.com/i/caa.svg) no-repeat;
     background-size: contain;
     padding: 0 1em;
     transition: all ease 0.5s;
 }
 
 .description a:hover {
-    background: url(/assets/images/link-bg-hover.svg) no-repeat;
+    background: url(https://svgshare.com/i/ca3.svg) no-repeat;
     background-size: contain;
 }
 
@@ -64,7 +64,7 @@ main {
 }
 
 .filter a:hover {
-    background: url(/assets/images/link-bg-hover.svg) no-repeat;
+    background: url(https://svgshare.com/i/ca3.svg) no-repeat;
     background-size: contain;
 }
 

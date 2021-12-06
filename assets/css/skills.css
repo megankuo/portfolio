@@ -29,7 +29,7 @@ li {
 #tools {
     max-width: 900px;
     margin: 1.5em auto;
-    background: url(/assets/images/tools-bg.svg) no-repeat;
+    background: url(https://svgshare.com/i/c_E.svg) no-repeat;
     background-size: contain;
     display: grid;
     grid-template-columns: repeat(3, auto);
@@ -60,7 +60,7 @@ li {
 }
 
 .dev-skills {
-    background: url(/assets/images/development-bg.svg) no-repeat;
+    background: url(https://svgshare.com/i/ca_.svg) no-repeat;
     background-size: contain;
     padding: 40px;
     grid-row: 2 / span 2;
@@ -68,18 +68,18 @@ li {
 
 .design-skills {
     align-self: center;
-    background: url(/assets/images/design-bg.svg) no-repeat;
+    background: url(https://svgshare.com/s/cZY.svg) no-repeat;
     background-size: contain;
     background-position: center bottom;
     padding: 40px;
 }
 
 .methodologies {
-    background: url(/assets/images/methodology-bg.svg) no-repeat;
+    background: url(https://svgshare.com/i/c_r.svg) no-repeat;
     background-size: contain;
     padding: 40px;
 }
 
-.cta-container{
+.cta-container {
     padding: 30px;
 }
