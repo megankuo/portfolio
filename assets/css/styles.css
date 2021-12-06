@@ -163,6 +163,7 @@ a {
 
 #nav-links a:hover {
     border: 1.55556px dashed #AA7949;
+    border-radius: 10px;
 }
 
 
