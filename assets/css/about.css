@@ -61,7 +61,8 @@
 }
 
 #timeline {
-    padding-bottom: 100px;
+    /* padding-bottom: 100px; */
+    margin-bottom: 26em;
 }
 
 .timeline {
@@ -100,12 +101,9 @@
     color: #7B5D8E;
 }
 
-.cta-container {
-    display: flex;
-    justify-content: space-evenly;
-}
 
-.cta {
+
+/* .cta {
     min-width: 276px;
     min-height: 53px;
     padding: 1em;
@@ -114,4 +112,4 @@
 
 .cta:hover {
     background: url(/assets/images/link-bg-hover.svg) no-repeat;
-}
+} */

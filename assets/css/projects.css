@@ -15,6 +15,7 @@ main {
     background: url(/assets/images/link-bg.svg) no-repeat;
     background-size: contain;
     padding: 0 1em;
+    transition: all ease 0.5s;
 }
 
 .description a:hover {
@@ -59,6 +60,7 @@ main {
 
 .filter a {
     padding: 0.5em 3em;
+    transition: all ease 0.5s;
 }
 
 .filter a:hover {
@@ -69,4 +71,8 @@ main {
 .divider {
     position: relative;
     left: 190px;
+}
+
+.cta-container {
+    margin-top: 2em;
 }
