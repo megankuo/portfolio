@@ -1,7 +1,7 @@
 main {
     position: relative;
     padding: 5em;
-    top: 56px;
+    /* top: 56px; */
     background: linear-gradient(180deg, #EFE2ED 0%, #E1D1DF 100%);
     /* text-align: center; */
 }
