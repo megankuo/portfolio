@@ -24,6 +24,7 @@
     display: flex;
     padding: 3em 5em;
     max-width: 900px;
+    align-items: center;
 }
 
 #intro .container {
@@ -98,7 +99,24 @@
     font-family: 'Fredoka One', cursive;
     font-weight: 400;
     font-size: 20pt;
-    color: #7B5D8E;
+    color: #AA7949;
+}
+
+
+
+#connect {
+    margin-top: 2em;
+}
+
+#connect .cta-container {
+    display: flex;
+    justify-content: space-evenly;
+    background: url(https://svgshare.com/i/c_g.svg) no-repeat;
+    background-size: contain;
+    background-position: center;
+    max-width: 500px;
+    margin: 10px auto;
+    padding: 4em;
 }
 
 
